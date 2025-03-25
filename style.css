@@ -1,0 +1,219 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Navigation Bar */
+nav {
+    background:  #7ecde3;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color:black;
+    
+}
+
+/* Home Section */
+#home {
+    padding: 50px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+/* About Section */
+#about {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    background:  #7ecde3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.about-text {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.about-text p {
+    margin-bottom: 10px;
+}
+
+.about-container:hover{
+    background-color: antiquewhite;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill {
+    background-color: #7ecde3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill:hover{
+    background-color:  antiquewhite;
+    color: #333;
+}
+/* Projects Section */
+#projects {
+    padding: 50px;
+}
+
+.project {
+    background-color: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project p {
+    color: #555;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #7ecde3;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+    
+}
+.project:hover{
+    background-color: antiquewhite;
+}
+/* Contact Section */
+#contact {
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7ecde3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background: #47bada;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Rohan Bhardwaj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="cv.pdf" download="Rohan_Bhardwaj_Resume.pdf" id="resume-link">Resume</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1  style=" font-weight: bolder;">Welcome to My Portfolio</h1>
+        <img src="pic.png" alt="Rohan Bhardwaj" class="profile-pic">
+        <p >Hello,I'm<br> </p>
+        <p style="font-size: xx-large; font-weight: bolder;">  ROHAN BHARDWAJ </p>
+    
+    </section>
+    
+    <section id="about">
+        <div class="about-container">
+            <h2 style="font-weight: bolder;">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p><strong>Objective</strong><br> To work in an environment that encourages growth  professionally where I can 
+                        utilize my skills and knowledge appropriately. </p>
+                    <p><strong>Education</strong><br>
+                        ❖ MCA from GEHU, Dehradun, Uttarakhand.<br>
+                        ❖ BCA from HNBGU<br>
+                        ❖ XIIth from SGRR Public School (CBSE)<br>
+                        ❖ Xth from SGRR Public School (CBSE)
+                    </p>
+                    <p><strong>Work Experience</strong><br> Full Stack Intern at Unified Mentor</p>
+                    <p><strong>Hobbies</strong><br> Coding, Reading, Music, and Traveling</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 style="font-weight: bolder;">My Skills</h2>
+        <div class="skill-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Bootstrap</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Java</div>
+            <div class="skill">C</div>
+            <div class="skill">C++</div>
+            <div class="skill">Adaptable</div>
+            <div class="skill">Diligent</div>
+            <div class="skill">Punctual</div>
+            <div class="skill">Good Learner & Listener</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 style="font-weight: bolder;">My Projects</h2>
+        <div class="project">
+            <h3>Portfolio</h3>
+            <p>It is my personal portfolio and we use html,css,js to build this and use formspree .
+                is a back-end service that handles form processing and storage, allowing developers to include forms on their website without writing server-side code or functions
+            </p>
+            <a href="https://github.com/yourusername/plant-disease-detection" target="_blank">View Project</a>
+        </div>
+        
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>In this project we can see weather condition of various location and i use html,css,js and  weather api for fetching the data from server </p>
+            <a href="https://github.com/yourusername/e-waste-optimization" target="_blank">View Project</a>
+        </div>
+        
+        <div class="project">
+            <h3>Calculator</h3>
+            <p>It is a basic Calculator and we use html,css,js for performing mathematical operation</p>
+            <a href="https://rohanbhardwaj2001.github.io/Project1-Calculator/" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 style="font-weight: bolder;">Contact Me</h2>
+        <form id="contactForm" action="https://formspree.io/f/mldjdbew" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="status"></p>
+    </section>
+
+    <footer>
+        <p>Copyright © 2024 Rohan Bhardwaj — All Rights Reserved</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
